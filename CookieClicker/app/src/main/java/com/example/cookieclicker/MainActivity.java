@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
     private int bonus = 0;
-    private int score = 0;
+    private int score = 250;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,10 +47,15 @@ public class MainActivity extends AppCompatActivity {
             timer.scheduleAtFixedRate(new TimerTask()
             {
                 public void run() {
-                    score += 10;
-                    binding.score.setText("Score: " + score);
+                    score += 5;
+                    runOnUiThread(new TimerTask() {
+                        @Override
+                        public void run() {
+                            binding.score.setText("Score: " + score);
+                        }
+                    });
                 }
-            }, 1000, 4000);
+            }, 1000, 2000);
         }
     }
 }
