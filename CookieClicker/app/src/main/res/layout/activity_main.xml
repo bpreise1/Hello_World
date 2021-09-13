@@ -58,7 +58,7 @@
             app:layout_constraintHorizontal_bias="0.086"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/oreo"
-            app:layout_constraintVertical_bias="0.105" />
+            app:layout_constraintVertical_bias="0.254" />
 
         <TextView
             android:id="@+id/buy"
@@ -68,10 +68,10 @@
             android:textSize="19dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.448"
+            app:layout_constraintHorizontal_bias="0.482"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/milk"
-            app:layout_constraintVertical_bias="0.728" />
+            app:layout_constraintVertical_bias="0.872" />
 
         <TextView
             android:id="@+id/cost"
@@ -83,7 +83,7 @@
             android:textSize="13sp"
             app:layout_constraintBottom_toTopOf="@+id/buy"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintHorizontal_bias="0.202"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/milk"
             app:layout_constraintVertical_bias="0.0" />
@@ -100,23 +100,23 @@
             app:layout_constraintHorizontal_bias="0.847"
             app:layout_constraintStart_toEndOf="@+id/milk"
             app:layout_constraintTop_toBottomOf="@+id/oreo"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.114" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cost: 250"
-            tools:layout_editor_absoluteX="194dp"
-            tools:layout_editor_absoluteY="583dp" />
+            tools:layout_editor_absoluteX="265dp"
+            tools:layout_editor_absoluteY="612dp" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Buy for five extra points every two seconds! (Owned: 0)"
-            tools:layout_editor_absoluteX="52dp"
-            tools:layout_editor_absoluteY="610dp" />
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="639dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
